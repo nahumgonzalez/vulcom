@@ -9,6 +9,8 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@500&display=swap" rel="stylesheet">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+ <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
   <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-KT1982JKYD"></script>
 <script>
@@ -22,9 +24,9 @@
 <body bgcolor="#000">
   <div class="container">
     <div class="header">
-      <!-- <div class="logo">
-        <img src="logo.png" alt="Logo de mi agencia">
-      </div> -->
+      <div class="logo">
+        <img src="VulLogo.png" alt="Logo de mi agencia">
+      </div>
       <div class="menu">
         <ul>
           <li><a href="#servicios">Servicios</a></li>
@@ -44,21 +46,17 @@
         <p>Somos una agencia de marketing digital que te ayuda a alcanzar tus objetivos con soluciones innovadoras y efectivas.</p>
         <a href="#contacto" class="button">Solicita una cotización</a>
       </div>
-      <div class="video">
-     <!--  <img src="VulLogo.gif" width="100%"> -->
-        <script type="module" src="https://unpkg.com/@splinetool/viewer@0.9.499/build/spline-viewer.js"></script>
-<spline-viewer url="https://prod.spline.design/a-DTBqMCu8BNdI3p/scene.splinecode"></spline-viewer>
-      </div>
     </div>
     <div class="servicios" id="servicios">
       <h2>Nuestros servicios</h2>
       <div class="cards">
         <div class="card">
-          <img src="seo.png" alt="SEO">
+          <img src="seoIcon.png" alt="">
           <h3>SEO</h3>
           <p>Optimizamos tu sitio web para que aparezca en los primeros lugares de los resultados de búsqueda.</p>
         </div>
         <div class="card">
+          <a class="icon brands fa-twitter"></a>
           <img src="social.png" alt="Social Media">
           <h3>Social Media</h3>
           <p>Gestionamos tus redes sociales para que conectes con tu audiencia y generes más ventas.</p>
@@ -82,22 +80,20 @@
     <div class="contacto" id="contacto">
       <h2>Contacta con nosotros</h2>
       <p>Si quieres saber más sobre nuestros servicios o solicitar una cotización, rellena el siguiente formulario y nos pondremos en contacto contigo lo antes posible.</p>
-      <form>
-        <input type="text" name="nombre" placeholder="Nombre">
-        <input type="email" name="email" placeholder="Email">
-        <textarea name="mensaje" placeholder="Mensaje"></textarea>
-        <button type="submit">Enviar</button>
-      </form>
+      <!-- Calendly inline widget begin -->
+<div class="calendly-inline-widget" data-url="https://calendly.com/vulcom/consultoria-personal-gratis" style="width:95%;height:700px;"></div>
+<script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+<!-- Calendly inline widget end -->
     </div>
     <div class="faqs" id="faqs">
       <h2>Preguntas Frecuentes</h2>
     <div class="qs">
       <details>
-        <summary>¿Qué es HTML? <i class="fas fa-angle-down"></i></summary>
+        <summary>¿Qué servicios ofrecemos? <i class="fas fa-angle-down"></i></summary>
         <p>HTML es el lenguaje de marcado que se usa para crear la estructura de las páginas web.</p>
       </details>
       <details>
-        <summary>¿Qué es CSS? <i class="fas fa-angle-down"></i></summary>
+        <summary>¿Cómo contactarnos? <i class="fas fa-angle-down"></i></summary>
         <p>CSS es el lenguaje de estilo que se usa para darle apariencia y diseño a las páginas web.</p>
       </details>
       <details>
@@ -110,10 +106,16 @@
       </details>
     </div>
   </div>
+  <div class="foot"> </div>
     <div class="footer">
-      <p>© 2023 VulCompany. Todos los derechos reservados.</p>
+      <p>© 2023 VulCompany. Todos los derechos reservados.</p><br>
+      <i class="fab fa-instagram" style="font-size: 2em;"></i>
     </div>
   </div>
-  <script src="script.js"></script>
+  <!-- Calendly badge widget begin -->
+<link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+<script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+<script type="text/javascript">window.onload = function() { Calendly.initBadgeWidget({ url: 'https://calendly.com/vulcom/consultoria-personal-gratis', text: 'Schedule time with me', color: '#0069ff', textColor: '#ffffff', branding: undefined }); }</script>
+<!-- Calendly badge widget end -->
 </body>
 </html>
